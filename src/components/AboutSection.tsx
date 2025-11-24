@@ -13,7 +13,7 @@ export default function AboutSection() {
 
 
     return (
-        <section id="about" className="flex flex-col items-center justify-center py-20 px-4 lg:py-36 lg:px-6 gap-8 lg:gap-12">
+        <section id="about" className="flex flex-col items-center justify-center py-20 px-4 lg:py-36 lg:px-6 gap-8 lg:gap-12 scroll-mt-20">
             <motion.div
                 className="text-center max-w-4xl flex flex-col items-center gap-6 md:gap-8"
                 initial={{ opacity: 0, y: 40 }}

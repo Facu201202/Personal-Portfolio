@@ -34,7 +34,7 @@ export default function ContactSection() {
     }
 
     return (
-        <section id="contact" className="flex flex-col items-center justify-center py-20 px-4 lg:py-36 lg:px-6 gap-12 bg-gray-100">
+        <section id="contact" className="flex flex-col items-center justify-center py-20 px-4 lg:py-36 lg:px-6 gap-12 bg-gray-100 scroll-mt-20">
             <motion.div
                 className="text-center max-w-4xl flex flex-col items-center gap-6 md:gap-8"
                 initial={{ opacity: 0, y: 40 }}

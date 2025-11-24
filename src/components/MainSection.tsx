@@ -22,7 +22,7 @@ export default function MainSection() {
     };
 
     return (
-        <section id="main" className="min-h-screen flex flex-col justify-center relative">
+        <section id="main" className="min-h-screen flex flex-col justify-center relative scroll-mt-20">
             <div className="w-full flex justify-center">
                 <div className="hidden lg:inline absolute left-0 space-y-4 p-2 shadow-2xl bg-white">
                     <Link href={"https://www.linkedin.com/in/facundo-fern%C3%A1ndez/"} target="_blank">
@@ -59,17 +59,24 @@ export default function MainSection() {
                         Desarrollador web orientado a resultados que crea y gestiona sitios web y aplicaciones web que contribuyen al éxito del producto en su conjunto.
                     </motion.p>
 
-                    <motion.div variants={item}>
+                    <motion.div variants={item} className="flex flex-col items-center sm:flex-row gap-3 justify-center">
                         <Link
                             href="#projects"
-                            className="bg-violet-600 py-3 lg:py-4 px-15 lg:px-20 rounded text-white font-bold text-lg lg:text-xl w-fit self-center uppercase transition-transform duration-200 hover:-translate-y-1"
+                            className="bg-violet-600 py-3 lg:py-4 lg:px-20 rounded text-white font-bold text-lg lg:text-xl w-52 lg:w-fit self-center uppercase transition-transform duration-200 hover:-translate-y-1"
                         >
                             Proyectos
                         </Link>
+                        <Link
+                            href={"/Facundo_Fernandez_CV.pdf"} title="Descargar CV" download
+                            className="border border-violet-600 py-3 rounded text-violet-600 font-bold text-lg w-52 uppercase transition-transform duration-200 hover:-translate-y-1 lg:hidden"
+                        >
+                            CV
+                        </Link>
                     </motion.div>
+
                 </motion.div>
             </div>
-            <div className="pt-12 absolute bottom-10 w-full">
+            <div className="hidden md:inline pt-12 absolute bottom-10 w-full">
                 <div className="w-6 h-10 border-2 border-foreground rounded-full mx-auto relative overflow-hidden flex justify-center">
                     <div className="w-1 h-2 bg-black rounded-full absolute top-2 animate-scroll-dot"></div>
 
