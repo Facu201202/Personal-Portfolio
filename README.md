@@ -2,7 +2,7 @@
 
 A modern, responsive personal portfolio built with **Next.js**, **TypeScript**, and **Tailwind CSS**, featuring smooth scroll animations with **Framer Motion** and a functional contact form.
 
-Live demo: <>
+Live demo: <https://personal-portfolio-rho-ten-51.vercel.app/>
 
 ---
 
