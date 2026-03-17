@@ -7,7 +7,7 @@ export default function AboutSection() {
     const skills = {
         Frontend: ["React", "Next.js", "TypeScript / JavaScript", "HTML", "CSS", "Tailwind CSS"],
         Backend: ["Node.js", "Express", "SQL", "MongoDB", "Prisma", "APIs REST", "Autenticación (JWT)"],
-        Herramientas: ["Git", "GitHub", "Postman", "Scrum"]
+        Herramientas: ["Git", "GitHub", "Postman", "Scrum", "Docker"]
     };
 
 
